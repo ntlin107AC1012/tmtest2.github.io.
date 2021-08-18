@@ -46,7 +46,7 @@
         await predict();
         window.requestAnimationFrame(loop);
     }
-    var socket = io.connect('106.104.126.229:1115');
+    var socket = io.connect('https://106.104.126.229:1115');
     socket.on('connect', function(){
       console.log("connection succeeded");
     });
